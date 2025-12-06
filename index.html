@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Mini Coding Project Website for Coding Camp Software Engineering RevoU</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Our Profile</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#message">Message Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- WELCOME SECTION -->
+    <section class="welcome">
+        <h2 id="welcomeText">Hi, Welcome To Website</h2>
+        <p>Ini adalah website latihan pertama</p>
+        <img src="images/banner.png" class="banner">
+    </section>
+
+    <!-- HEADQUARTER -->
+    <section class="hq">
+        <h2>Our Headquarter</h2>
+        <div class="hq-locations">
+            <div class="city">Jakarta</div>
+            <div class="city">Bandung</div>
+            <div class="city">Surabaya</div>
+        </div>
+    </section>
+
+    <!-- MESSAGE FORM -->
+    <section class="form-section" id="message">
+        <h2>Message Us</h2>
+
+        <div class="form-container">
+            <form id="messageForm">
+                <label>Name</label>
+                <input type="text" id="name" required>
+
+                <label>Email</label>
+                <input type="email" id="email" required>
+
+                <label>Phone Number</label>
+                <input type="number" id="phone" required>
+
+                <label>Message</label>
+                <textarea id="msg" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="output-box">
+                <h3>Result :</h3>
+                <p id="currentTime"></p>
+                <p id="outputName"></p>
+                <p id="outputEmail"></p>
+                <p id="outputPhone"></p>
+                <p id="outputMsg"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>Created By Finnalya Mutiara Sebrina Damanik</footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
